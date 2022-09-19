@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/passTxtField"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_centerInParent="true"
+        />
+    <EditText
+        android:id="@+id/emailTxtField"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/passTxtField"
+        android:layout_marginBottom="24dp"
+        />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/passTxtField"
+        android:layout_marginTop="24dp"/>
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to Fitable"
+        android:textSize="24dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/emailTxtField"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/googleSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login with Google"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/loginBtn"
+        android:layout_marginTop="24dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/loginBtn"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/googleSignIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"/>
+        <TextView
+            android:id="@+id/registerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:text="Register here."
+            android:layout_marginLeft="5dp"
+            android:clickable="true"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/newEmail"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email..."
+        android:layout_above="@id/newPassword"
+        android:layout_marginBottom="24dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/newUsername"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter a username..."
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/newEmail"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Create Password..."
+        android:layout_centerInParent="true"/>
+    <EditText
+        android:id="@+id/checkPassword"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Re-enter Password..."
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/newPassword"
+        android:layout_marginTop="24dp"/>
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/checkPassword"
+        android:layout_marginTop="24dp"/>
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register to Fitable"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/newUsername"
+        android:layout_marginBottom="48dp"/>
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incorrect email or password"
+        android:textSize="16dp"
+        android:textColor="@color/red"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/newEmail"/>
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/registerBtn"
+        android:layout_marginTop="24dp"/>
+
+
+
+
+
+</RelativeLayout>

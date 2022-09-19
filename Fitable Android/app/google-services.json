@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "342162894109",
+    "project_id": "fitable-fad30",
+    "storage_bucket": "fitable-fad30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342162894109:android:15c9b12b6588d527adc5f4",
+        "android_client_info": {
+          "package_name": "com.papaya.cameraxtutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342162894109-n9ado9ef4vb1os740lgl9gcrqp916f0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs5FJbh9K4zq1QjzCiZvFqt_jrVaoOOnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342162894109-n9ado9ef4vb1os740lgl9gcrqp916f0c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "342162894109-ks3njjoek3sab4rkqrskquicevb9kkpr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kiran-lim.Fitable"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
