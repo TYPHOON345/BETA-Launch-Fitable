@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.apis:google-api-services-classroom:v1-rev20220323-2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-classroom/v1-rev20220323-2.0.0/7a7347483542f80e15ed6a06e0ea1952a438e7f3/google-api-services-classroom-v1-rev20220323-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-classroom/v1-rev20220323-2.0.0/bd6212cc85abf6562ed9a7f57a6b58bd314901b0/google-api-services-classroom-v1-rev20220323-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-classroom/v1-rev20220323-2.0.0/95c27a6a7ae27411c2455a85035a31dde038b575/google-api-services-classroom-v1-rev20220323-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
