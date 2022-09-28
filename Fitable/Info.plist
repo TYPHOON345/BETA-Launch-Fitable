@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.342162894109-jf2fc1h8l2oe75vj05qn11mipcrhj56h</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>Bundle ID</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.kiran-lim.Fitable</string>
+			</array>
+		</dict>
+	</array>
+	<key>FirebaseOpenAppQueryItemEmailName</key>
+	<string>email</string>
+	<key>FirebaseOpenAppScheme</key>
+	<string>https</string>
+	<key>FirebaseOpenAppURLPrefix</key>
+	<string>fitable.page.link/</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GothamLight.ttf</string>
+		<string>Gotham Regular.otf</string>
+		<string>Gotham-Bold.otf</string>
+		<string>GothamMedium.ttf</string>
+	</array>
+</dict>
+</plist>

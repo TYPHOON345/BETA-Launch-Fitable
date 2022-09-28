@@ -1,0 +1,1138 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4A90AE28E46E2300D768C8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A90AD28E46E2300D768C8 /* CameraView.swift */; };
+		EB4A90B028E46E4500D768C8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A90AF28E46E4500D768C8 /* CameraViewController.swift */; };
+		EB4A90B228E46E8600D768C8 /* CameraViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A90B128E46E8600D768C8 /* CameraViewWrapper.swift */; };
+		EB580CA9288D89F000FAEE89 /* FitableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB580CA8288D89F000FAEE89 /* FitableApp.swift */; };
+		EB580CAB288D89F000FAEE89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB580CAA288D89F000FAEE89 /* ContentView.swift */; };
+		EB580CAD288D89F200FAEE89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB580CAC288D89F200FAEE89 /* Assets.xcassets */; };
+		EB580CB0288D89F200FAEE89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB580CAF288D89F200FAEE89 /* Preview Assets.xcassets */; };
+		EB6E5A4C28CB3CD70022B980 /* GothamLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB6E5A3C28CB2CAF0022B980 /* GothamLight.ttf */; };
+		EB6E5A4D28CB3CDA0022B980 /* Gotham Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EB6E5A4B28CB2E080022B980 /* Gotham Regular.otf */; };
+		EB6E5A4E28CB3CDD0022B980 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EB6E5A3F28CB2CAF0022B980 /* Gotham-Bold.otf */; };
+		EB6E5A4F28CB3CE00022B980 /* GothamBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB6E5A4728CB2CB10022B980 /* GothamBold.ttf */; };
+		EB6E5A5028CB3CE30022B980 /* GothamMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB6E5A4928CB2CB10022B980 /* GothamMedium.ttf */; };
+		EB6E5A5228CB4E770022B980 /* GoogleSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6E5A5128CB4E770022B980 /* GoogleSignUpView.swift */; };
+		EB70B84128D5BB9C0051DCB9 /* BreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70B84028D5BB9C0051DCB9 /* BreakView.swift */; };
+		EB78A3D4288E30560098FA61 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB78A3D3288E30550098FA61 /* LogInView.swift */; };
+		EB78A3D6288E3F450098FA61 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB78A3D5288E3F450098FA61 /* SignUpView.swift */; };
+		EB8968AC288D8B94006FFF08 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8968AB288D8B94006FFF08 /* Realm.swift */; };
+		EBB020612891587500E5AA2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBB020602891587500E5AA2F /* GoogleService-Info.plist */; };
+		EBB1A13428CF888B0042D854 /* WorkoutResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1A13328CF888B0042D854 /* WorkoutResultsView.swift */; };
+		EBB4300328CF90D800F0AC89 /* PoseEstimationView(Workouts).swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4300228CF90D800F0AC89 /* PoseEstimationView(Workouts).swift */; };
+		EBB4D88D289DF7A500A49533 /* Analyticsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4D88C289DF7A500A49533 /* Analyticsview.swift */; };
+		EBB4ECC028CF2792001E3E50 /* PoseEstimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4ECBF28CF2792001E3E50 /* PoseEstimationView.swift */; };
+		EBB4ECC228CF29EC001E3E50 /* CorrectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4ECC128CF29EC001E3E50 /* CorrectionsView.swift */; };
+		EBB7A71428CCD55100BE83E2 /* WorkoutMarketPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB7A71328CCD55100BE83E2 /* WorkoutMarketPlace.swift */; };
+		EBB8A91E28902D200061BEEF /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB8A91D28902D200061BEEF /* AlertView.swift */; };
+		EBC9C35B28A257B00022AE17 /* AnalyticsWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC9C35A28A257B00022AE17 /* AnalyticsWidgets.swift */; };
+		EBD6050828C0AF9000C89CA6 /* ClassRoomAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6050728C0AF9000C89CA6 /* ClassRoomAPI.swift */; };
+		EBD788A728CF1DDC00602910 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD788A528CF1DDB00602910 /* CGPointExtension.swift */; };
+		EBD788A828CF1DDC00602910 /* PoseEstimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD788A628CF1DDB00602910 /* PoseEstimation.swift */; };
+		EBD788AD28CF1ECF00602910 /* StickFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD788AA28CF1ECE00602910 /* StickFigure.swift */; };
+		EBD788AE28CF1ECF00602910 /* dotview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD788AB28CF1ECF00602910 /* dotview.swift */; };
+		EBD788AF28CF1ECF00602910 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD788AC28CF1ECF00602910 /* Shape.swift */; };
+		EBD7FD9528C97D6C007C98E1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD7FD9428C97D6C007C98E1 /* ProfileView.swift */; };
+		EBD839342894DA1100EDA90C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD839332894DA1100EDA90C /* HomeView.swift */; };
+		EBDA0D4028BB2180001D0DCA /* HomeViewWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDA0D3F28BB2180001D0DCA /* HomeViewWidgets.swift */; };
+		EBDB31F028CDDB9F00E841EC /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB31EF28CDDB9F00E841EC /* Realm */; };
+		EBDB31F228CDDB9F00E841EC /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB31F128CDDB9F00E841EC /* RealmSwift */; };
+		EBDB31F528CDDBDF00E841EC /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB31F428CDDBDF00E841EC /* GoogleSignIn */; };
+		EBDB31F728CDDBDF00E841EC /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB31F628CDDBDF00E841EC /* GoogleSignInSwift */; };
+		EBDB31FA28CDDC5000E841EC /* GoogleAPIClientForRESTCore in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB31F928CDDC5000E841EC /* GoogleAPIClientForRESTCore */; };
+		EBDB31FC28CDDC5000E841EC /* GoogleAPIClientForREST_AIPlatformNotebooks in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB31FB28CDDC5000E841EC /* GoogleAPIClientForREST_AIPlatformNotebooks */; };
+		EBDB31FE28CDDC5000E841EC /* GoogleAPIClientForREST_APIGateway in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB31FD28CDDC5000E841EC /* GoogleAPIClientForREST_APIGateway */; };
+		EBDB320028CDDC5000E841EC /* GoogleAPIClientForREST_AbusiveExperienceReport in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB31FF28CDDC5000E841EC /* GoogleAPIClientForREST_AbusiveExperienceReport */; };
+		EBDB320228CDDC5000E841EC /* GoogleAPIClientForREST_Acceleratedmobilepageurl in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB320128CDDC5000E841EC /* GoogleAPIClientForREST_Acceleratedmobilepageurl */; };
+		EBDB320428CDDC5000E841EC /* GoogleAPIClientForREST_AccessApproval in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB320328CDDC5000E841EC /* GoogleAPIClientForREST_AccessApproval */; };
+		EBDB320628CDDC5000E841EC /* GoogleAPIClientForREST_AccessContextManager in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB320528CDDC5000E841EC /* GoogleAPIClientForREST_AccessContextManager */; };
+		EBDB320828CDDC5000E841EC /* GoogleAPIClientForREST_AdExchangeBuyerII in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB320728CDDC5000E841EC /* GoogleAPIClientForREST_AdExchangeBuyerII */; };
+		EBDB320A28CDDC5000E841EC /* GoogleAPIClientForREST_AdExperienceReport in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB320928CDDC5000E841EC /* GoogleAPIClientForREST_AdExperienceReport */; };
+		EBDB320C28CDDC5000E841EC /* GoogleAPIClientForREST_AdMob in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB320B28CDDC5000E841EC /* GoogleAPIClientForREST_AdMob */; };
+		EBDB320E28CDDC5000E841EC /* GoogleAPIClientForREST_AdSenseHost in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB320D28CDDC5000E841EC /* GoogleAPIClientForREST_AdSenseHost */; };
+		EBDB321028CDDC5000E841EC /* GoogleAPIClientForREST_Adsense in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB320F28CDDC5000E841EC /* GoogleAPIClientForREST_Adsense */; };
+		EBDB321228CDDC5000E841EC /* GoogleAPIClientForREST_AlertCenter in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB321128CDDC5000E841EC /* GoogleAPIClientForREST_AlertCenter */; };
+		EBDB321428CDDC5000E841EC /* GoogleAPIClientForREST_Analytics in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB321328CDDC5000E841EC /* GoogleAPIClientForREST_Analytics */; };
+		EBDB321628CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsData in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB321528CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsData */; };
+		EBDB321828CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsHub in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB321728CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsHub */; };
+		EBDB321A28CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsReporting in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB321928CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsReporting */; };
+		EBDB321C28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidEnterprise in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB321B28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidEnterprise */; };
+		EBDB321E28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidManagement in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB321D28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidManagement */; };
+		EBDB322028CDDC5000E841EC /* GoogleAPIClientForREST_AndroidProvisioningPartner in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB321F28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidProvisioningPartner */; };
+		EBDB322228CDDC5000E841EC /* GoogleAPIClientForREST_AndroidPublisher in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB322128CDDC5000E841EC /* GoogleAPIClientForREST_AndroidPublisher */; };
+		EBDB322428CDDC5000E841EC /* GoogleAPIClientForREST_ApiKeysService in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB322328CDDC5000E841EC /* GoogleAPIClientForREST_ApiKeysService */; };
+		EBDB322628CDDC5000E841EC /* GoogleAPIClientForREST_Apigee in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB322528CDDC5000E841EC /* GoogleAPIClientForREST_Apigee */; };
+		EBDB322828CDDC5000E841EC /* GoogleAPIClientForREST_ApigeeRegistry in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB322728CDDC5000E841EC /* GoogleAPIClientForREST_ApigeeRegistry */; };
+		EBDB322A28CDDC5000E841EC /* GoogleAPIClientForREST_Appengine in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB322928CDDC5000E841EC /* GoogleAPIClientForREST_Appengine */; };
+		EBDB322C28CDDC5000E841EC /* GoogleAPIClientForREST_Area120Tables in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB322B28CDDC5000E841EC /* GoogleAPIClientForREST_Area120Tables */; };
+		EBDB322E28CDDC5000E841EC /* GoogleAPIClientForREST_ArtifactRegistry in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB322D28CDDC5000E841EC /* GoogleAPIClientForREST_ArtifactRegistry */; };
+		EBDB323028CDDC5000E841EC /* GoogleAPIClientForREST_Assuredworkloads in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB322F28CDDC5000E841EC /* GoogleAPIClientForREST_Assuredworkloads */; };
+		EBDB323228CDDC5000E841EC /* GoogleAPIClientForREST_AuthorizedBuyersMarketplace in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB323128CDDC5000E841EC /* GoogleAPIClientForREST_AuthorizedBuyersMarketplace */; };
+		EBDB323428CDDC5000E841EC /* GoogleAPIClientForREST_BackupforGKE in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB323328CDDC5000E841EC /* GoogleAPIClientForREST_BackupforGKE */; };
+		EBDB323628CDDC5000E841EC /* GoogleAPIClientForREST_BareMetalSolution in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB323528CDDC5000E841EC /* GoogleAPIClientForREST_BareMetalSolution */; };
+		EBDB323828CDDC5000E841EC /* GoogleAPIClientForREST_BeyondCorp in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB323728CDDC5000E841EC /* GoogleAPIClientForREST_BeyondCorp */; };
+		EBDB323A28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryConnectionService in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB323928CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryConnectionService */; };
+		EBDB323C28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryDataTransfer in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB323B28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryDataTransfer */; };
+		EBDB323E28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryReservation in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB323D28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryReservation */; };
+		EBDB324028CDDC5000E841EC /* GoogleAPIClientForREST_Bigquery in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB323F28CDDC5000E841EC /* GoogleAPIClientForREST_Bigquery */; };
+		EBDB324228CDDC5000E841EC /* GoogleAPIClientForREST_BigtableAdmin in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB324128CDDC5000E841EC /* GoogleAPIClientForREST_BigtableAdmin */; };
+		EBDB324428CDDC5000E841EC /* GoogleAPIClientForREST_BinaryAuthorization in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB324328CDDC5000E841EC /* GoogleAPIClientForREST_BinaryAuthorization */; };
+		EBDB324628CDDC5000E841EC /* GoogleAPIClientForREST_Blogger in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB324528CDDC5000E841EC /* GoogleAPIClientForREST_Blogger */; };
+		EBDB324828CDDC5000E841EC /* GoogleAPIClientForREST_Books in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB324728CDDC5000E841EC /* GoogleAPIClientForREST_Books */; };
+		EBDB324A28CDDC5000E841EC /* GoogleAPIClientForREST_BusinessProfilePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB324928CDDC5000E841EC /* GoogleAPIClientForREST_BusinessProfilePerformance */; };
+		EBDB324C28CDDC5000E841EC /* GoogleAPIClientForREST_Calendar in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB324B28CDDC5000E841EC /* GoogleAPIClientForREST_Calendar */; };
+		EBDB324E28CDDC5000E841EC /* GoogleAPIClientForREST_CertificateAuthorityService in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB324D28CDDC5000E841EC /* GoogleAPIClientForREST_CertificateAuthorityService */; };
+		EBDB325028CDDC5000E841EC /* GoogleAPIClientForREST_CertificateManager in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB324F28CDDC5000E841EC /* GoogleAPIClientForREST_CertificateManager */; };
+		EBDB325228CDDC5000E841EC /* GoogleAPIClientForREST_ChromeManagement in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB325128CDDC5000E841EC /* GoogleAPIClientForREST_ChromeManagement */; };
+		EBDB325428CDDC5000E841EC /* GoogleAPIClientForREST_ChromePolicy in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB325328CDDC5000E841EC /* GoogleAPIClientForREST_ChromePolicy */; };
+		EBDB325628CDDC5000E841EC /* GoogleAPIClientForREST_ChromeUXReport in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB325528CDDC5000E841EC /* GoogleAPIClientForREST_ChromeUXReport */; };
+		EBDB325828CDDC5000E841EC /* GoogleAPIClientForREST_CivicInfo in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB325728CDDC5000E841EC /* GoogleAPIClientForREST_CivicInfo */; };
+		EBDB325A28CDDC5000E841EC /* GoogleAPIClientForREST_Classroom in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB325928CDDC5000E841EC /* GoogleAPIClientForREST_Classroom */; };
+		EBDB325C28CDDC5000E841EC /* GoogleAPIClientForREST_CloudAsset in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB325B28CDDC5000E841EC /* GoogleAPIClientForREST_CloudAsset */; };
+		EBDB325E28CDDC5000E841EC /* GoogleAPIClientForREST_CloudBillingBudget in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB325D28CDDC5000E841EC /* GoogleAPIClientForREST_CloudBillingBudget */; };
+		EBDB326028CDDC5000E841EC /* GoogleAPIClientForREST_CloudBuild in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB325F28CDDC5000E841EC /* GoogleAPIClientForREST_CloudBuild */; };
+		EBDB326228CDDC5000E841EC /* GoogleAPIClientForREST_CloudComposer in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB326128CDDC5000E841EC /* GoogleAPIClientForREST_CloudComposer */; };
+		EBDB326428CDDC5000E841EC /* GoogleAPIClientForREST_CloudDataplex in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB326328CDDC5000E841EC /* GoogleAPIClientForREST_CloudDataplex */; };
+		EBDB326628CDDC5000E841EC /* GoogleAPIClientForREST_CloudDebugger in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB326528CDDC5000E841EC /* GoogleAPIClientForREST_CloudDebugger */; };
+		EBDB326828CDDC5000E841EC /* GoogleAPIClientForREST_CloudDeploy in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB326728CDDC5000E841EC /* GoogleAPIClientForREST_CloudDeploy */; };
+		EBDB326A28CDDC5000E841EC /* GoogleAPIClientForREST_CloudDomains in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB326928CDDC5000E841EC /* GoogleAPIClientForREST_CloudDomains */; };
+		EBDB326D28CE1FAA00E841EC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB326C28CE1FAA00E841EC /* FirebaseAuth */; };
+		EBDB326F28CE1FAA00E841EC /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB326E28CE1FAA00E841EC /* FirebaseDynamicLinks */; };
+		EBDB327128CE1FAA00E841EC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB327028CE1FAA00E841EC /* FirebaseFirestore */; };
+		EBDB327328CE1FAA00E841EC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EBDB327228CE1FAA00E841EC /* FirebaseStorage */; };
+		EBDEA94A2892CDD700D12A00 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDEA9492892CDD700D12A00 /* VerificationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB4A90AD28E46E2300D768C8 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		EB4A90AF28E46E4500D768C8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		EB4A90B128E46E8600D768C8 /* CameraViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewWrapper.swift; sourceTree = "<group>"; };
+		EB580CA5288D89F000FAEE89 /* Fitable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB580CA8288D89F000FAEE89 /* FitableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitableApp.swift; sourceTree = "<group>"; };
+		EB580CAA288D89F000FAEE89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB580CAC288D89F200FAEE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB580CAF288D89F200FAEE89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB6E5A3C28CB2CAF0022B980 /* GothamLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLight.ttf; sourceTree = "<group>"; };
+		EB6E5A3F28CB2CAF0022B980 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		EB6E5A4728CB2CB10022B980 /* GothamBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBold.ttf; sourceTree = "<group>"; };
+		EB6E5A4928CB2CB10022B980 /* GothamMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMedium.ttf; sourceTree = "<group>"; };
+		EB6E5A4B28CB2E080022B980 /* Gotham Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Regular.otf"; sourceTree = "<group>"; };
+		EB6E5A5128CB4E770022B980 /* GoogleSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignUpView.swift; sourceTree = "<group>"; };
+		EB70B84028D5BB9C0051DCB9 /* BreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakView.swift; sourceTree = "<group>"; };
+		EB78A3D3288E30550098FA61 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		EB78A3D5288E3F450098FA61 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		EB8968AB288D8B94006FFF08 /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		EBB020602891587500E5AA2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Documents/GitHub/fitable/Fitable/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EBB1A13328CF888B0042D854 /* WorkoutResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutResultsView.swift; sourceTree = "<group>"; };
+		EBB4300228CF90D800F0AC89 /* PoseEstimationView(Workouts).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PoseEstimationView(Workouts).swift"; sourceTree = "<group>"; };
+		EBB4D88C289DF7A500A49533 /* Analyticsview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analyticsview.swift; sourceTree = "<group>"; };
+		EBB4ECBF28CF2792001E3E50 /* PoseEstimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseEstimationView.swift; sourceTree = "<group>"; };
+		EBB4ECC128CF29EC001E3E50 /* CorrectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectionsView.swift; sourceTree = "<group>"; };
+		EBB7A71328CCD55100BE83E2 /* WorkoutMarketPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutMarketPlace.swift; sourceTree = "<group>"; };
+		EBB8A91D28902D200061BEEF /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		EBC9C35A28A257B00022AE17 /* AnalyticsWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsWidgets.swift; sourceTree = "<group>"; };
+		EBD6050728C0AF9000C89CA6 /* ClassRoomAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRoomAPI.swift; sourceTree = "<group>"; };
+		EBD788A528CF1DDB00602910 /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
+		EBD788A628CF1DDB00602910 /* PoseEstimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseEstimation.swift; sourceTree = "<group>"; };
+		EBD788AA28CF1ECE00602910 /* StickFigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickFigure.swift; sourceTree = "<group>"; };
+		EBD788AB28CF1ECF00602910 /* dotview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dotview.swift; sourceTree = "<group>"; };
+		EBD788AC28CF1ECF00602910 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		EBD7FD9428C97D6C007C98E1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EBD839332894DA1100EDA90C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EBD92AC328C36D2800D3DD83 /* Fitable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fitable.entitlements; sourceTree = "<group>"; };
+		EBDA0D3F28BB2180001D0DCA /* HomeViewWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewWidgets.swift; sourceTree = "<group>"; };
+		EBDEA9492892CDD700D12A00 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB580CA2288D89F000FAEE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDB322228CDDC5000E841EC /* GoogleAPIClientForREST_AndroidPublisher in Frameworks */,
+				EBDB321028CDDC5000E841EC /* GoogleAPIClientForREST_Adsense in Frameworks */,
+				EBDB322A28CDDC5000E841EC /* GoogleAPIClientForREST_Appengine in Frameworks */,
+				EBDB323A28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryConnectionService in Frameworks */,
+				EBDB322828CDDC5000E841EC /* GoogleAPIClientForREST_ApigeeRegistry in Frameworks */,
+				EBDB326F28CE1FAA00E841EC /* FirebaseDynamicLinks in Frameworks */,
+				EBDB321428CDDC5000E841EC /* GoogleAPIClientForREST_Analytics in Frameworks */,
+				EBDB322628CDDC5000E841EC /* GoogleAPIClientForREST_Apigee in Frameworks */,
+				EBDB327328CE1FAA00E841EC /* FirebaseStorage in Frameworks */,
+				EBDB326028CDDC5000E841EC /* GoogleAPIClientForREST_CloudBuild in Frameworks */,
+				EBDB326228CDDC5000E841EC /* GoogleAPIClientForREST_CloudComposer in Frameworks */,
+				EBDB326D28CE1FAA00E841EC /* FirebaseAuth in Frameworks */,
+				EBDB325E28CDDC5000E841EC /* GoogleAPIClientForREST_CloudBillingBudget in Frameworks */,
+				EBDB325428CDDC5000E841EC /* GoogleAPIClientForREST_ChromePolicy in Frameworks */,
+				EBDB326828CDDC5000E841EC /* GoogleAPIClientForREST_CloudDeploy in Frameworks */,
+				EBDB324C28CDDC5000E841EC /* GoogleAPIClientForREST_Calendar in Frameworks */,
+				EBDB31FE28CDDC5000E841EC /* GoogleAPIClientForREST_APIGateway in Frameworks */,
+				EBDB324028CDDC5000E841EC /* GoogleAPIClientForREST_Bigquery in Frameworks */,
+				EBDB323028CDDC5000E841EC /* GoogleAPIClientForREST_Assuredworkloads in Frameworks */,
+				EBDB320228CDDC5000E841EC /* GoogleAPIClientForREST_Acceleratedmobilepageurl in Frameworks */,
+				EBDB321228CDDC5000E841EC /* GoogleAPIClientForREST_AlertCenter in Frameworks */,
+				EBDB323828CDDC5000E841EC /* GoogleAPIClientForREST_BeyondCorp in Frameworks */,
+				EBDB325C28CDDC5000E841EC /* GoogleAPIClientForREST_CloudAsset in Frameworks */,
+				EBDB320028CDDC5000E841EC /* GoogleAPIClientForREST_AbusiveExperienceReport in Frameworks */,
+				EBDB321828CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsHub in Frameworks */,
+				EBDB326428CDDC5000E841EC /* GoogleAPIClientForREST_CloudDataplex in Frameworks */,
+				EBDB321628CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsData in Frameworks */,
+				EBDB324E28CDDC5000E841EC /* GoogleAPIClientForREST_CertificateAuthorityService in Frameworks */,
+				EBDB322E28CDDC5000E841EC /* GoogleAPIClientForREST_ArtifactRegistry in Frameworks */,
+				EBDB320628CDDC5000E841EC /* GoogleAPIClientForREST_AccessContextManager in Frameworks */,
+				EBDB326628CDDC5000E841EC /* GoogleAPIClientForREST_CloudDebugger in Frameworks */,
+				EBDB320C28CDDC5000E841EC /* GoogleAPIClientForREST_AdMob in Frameworks */,
+				EBDB31F728CDDBDF00E841EC /* GoogleSignInSwift in Frameworks */,
+				EBDB325828CDDC5000E841EC /* GoogleAPIClientForREST_CivicInfo in Frameworks */,
+				EBDB325A28CDDC5000E841EC /* GoogleAPIClientForREST_Classroom in Frameworks */,
+				EBDB321A28CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsReporting in Frameworks */,
+				EBDB321E28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidManagement in Frameworks */,
+				EBDB322428CDDC5000E841EC /* GoogleAPIClientForREST_ApiKeysService in Frameworks */,
+				EBDB327128CE1FAA00E841EC /* FirebaseFirestore in Frameworks */,
+				EBDB323C28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryDataTransfer in Frameworks */,
+				EBDB324A28CDDC5000E841EC /* GoogleAPIClientForREST_BusinessProfilePerformance in Frameworks */,
+				EBDB31F028CDDB9F00E841EC /* Realm in Frameworks */,
+				EBDB31FC28CDDC5000E841EC /* GoogleAPIClientForREST_AIPlatformNotebooks in Frameworks */,
+				EBDB320828CDDC5000E841EC /* GoogleAPIClientForREST_AdExchangeBuyerII in Frameworks */,
+				EBDB31F228CDDB9F00E841EC /* RealmSwift in Frameworks */,
+				EBDB321C28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidEnterprise in Frameworks */,
+				EBDB322028CDDC5000E841EC /* GoogleAPIClientForREST_AndroidProvisioningPartner in Frameworks */,
+				EBDB322C28CDDC5000E841EC /* GoogleAPIClientForREST_Area120Tables in Frameworks */,
+				EBDB323628CDDC5000E841EC /* GoogleAPIClientForREST_BareMetalSolution in Frameworks */,
+				EBDB324428CDDC5000E841EC /* GoogleAPIClientForREST_BinaryAuthorization in Frameworks */,
+				EBDB320A28CDDC5000E841EC /* GoogleAPIClientForREST_AdExperienceReport in Frameworks */,
+				EBDB31FA28CDDC5000E841EC /* GoogleAPIClientForRESTCore in Frameworks */,
+				EBDB324228CDDC5000E841EC /* GoogleAPIClientForREST_BigtableAdmin in Frameworks */,
+				EBDB325028CDDC5000E841EC /* GoogleAPIClientForREST_CertificateManager in Frameworks */,
+				EBDB320E28CDDC5000E841EC /* GoogleAPIClientForREST_AdSenseHost in Frameworks */,
+				EBDB324628CDDC5000E841EC /* GoogleAPIClientForREST_Blogger in Frameworks */,
+				EBDB326A28CDDC5000E841EC /* GoogleAPIClientForREST_CloudDomains in Frameworks */,
+				EBDB31F528CDDBDF00E841EC /* GoogleSignIn in Frameworks */,
+				EBDB323E28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryReservation in Frameworks */,
+				EBDB323228CDDC5000E841EC /* GoogleAPIClientForREST_AuthorizedBuyersMarketplace in Frameworks */,
+				EBDB325228CDDC5000E841EC /* GoogleAPIClientForREST_ChromeManagement in Frameworks */,
+				EBDB320428CDDC5000E841EC /* GoogleAPIClientForREST_AccessApproval in Frameworks */,
+				EBDB323428CDDC5000E841EC /* GoogleAPIClientForREST_BackupforGKE in Frameworks */,
+				EBDB325628CDDC5000E841EC /* GoogleAPIClientForREST_ChromeUXReport in Frameworks */,
+				EBDB324828CDDC5000E841EC /* GoogleAPIClientForREST_Books in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB580C9C288D89F000FAEE89 = {
+			isa = PBXGroup;
+			children = (
+				EB580CA7288D89F000FAEE89 /* Fitable */,
+				EB580CA6288D89F000FAEE89 /* Products */,
+				EBA8808E289F4D4C00F92D3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB580CA6288D89F000FAEE89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB580CA5288D89F000FAEE89 /* Fitable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB580CA7288D89F000FAEE89 /* Fitable */ = {
+			isa = PBXGroup;
+			children = (
+				EBD92AC328C36D2800D3DD83 /* Fitable.entitlements */,
+				EB580CA8288D89F000FAEE89 /* FitableApp.swift */,
+				EB580CAA288D89F000FAEE89 /* ContentView.swift */,
+				EB8968AA288D8B86006FFF08 /* Authentication */,
+				EB580CAC288D89F200FAEE89 /* Assets.xcassets */,
+				EBB020602891587500E5AA2F /* GoogleService-Info.plist */,
+				EB6E5A3628CB2CAE0022B980 /* Gotham-Font */,
+				EB580CAE288D89F200FAEE89 /* Preview Content */,
+				EBB8A91D28902D200061BEEF /* AlertView.swift */,
+				EBD839332894DA1100EDA90C /* HomeView.swift */,
+				EBDA0D3F28BB2180001D0DCA /* HomeViewWidgets.swift */,
+				EBE0AD0128C1FB3300290069 /* Fitable Edu */,
+				EBC9C35928A257900022AE17 /* Analytics */,
+				EBD7FD9428C97D6C007C98E1 /* ProfileView.swift */,
+				EBB7A71328CCD55100BE83E2 /* WorkoutMarketPlace.swift */,
+				EBD788B028CF1F4E00602910 /* CameraVIewController */,
+				EBD788A428CF1DC600602910 /* PoseEstimation */,
+				EBB4ECBF28CF2792001E3E50 /* PoseEstimationView.swift */,
+				EBB4300228CF90D800F0AC89 /* PoseEstimationView(Workouts).swift */,
+				EBB1A13328CF888B0042D854 /* WorkoutResultsView.swift */,
+				EB70B84028D5BB9C0051DCB9 /* BreakView.swift */,
+			);
+			path = Fitable;
+			sourceTree = "<group>";
+		};
+		EB580CAE288D89F200FAEE89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB580CAF288D89F200FAEE89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB6E5A3628CB2CAE0022B980 /* Gotham-Font */ = {
+			isa = PBXGroup;
+			children = (
+				EB6E5A3C28CB2CAF0022B980 /* GothamLight.ttf */,
+				EB6E5A4B28CB2E080022B980 /* Gotham Regular.otf */,
+				EB6E5A3F28CB2CAF0022B980 /* Gotham-Bold.otf */,
+				EB6E5A4728CB2CB10022B980 /* GothamBold.ttf */,
+				EB6E5A4928CB2CB10022B980 /* GothamMedium.ttf */,
+			);
+			path = "Gotham-Font";
+			sourceTree = "<group>";
+		};
+		EB8968AA288D8B86006FFF08 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				EB8968AB288D8B94006FFF08 /* Realm.swift */,
+				EB78A3D3288E30550098FA61 /* LogInView.swift */,
+				EB78A3D5288E3F450098FA61 /* SignUpView.swift */,
+				EBDEA9492892CDD700D12A00 /* VerificationView.swift */,
+				EB6E5A5128CB4E770022B980 /* GoogleSignUpView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		EBA8808E289F4D4C00F92D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBC9C35928A257900022AE17 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				EBB4D88C289DF7A500A49533 /* Analyticsview.swift */,
+				EBC9C35A28A257B00022AE17 /* AnalyticsWidgets.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		EBD788A428CF1DC600602910 /* PoseEstimation */ = {
+			isa = PBXGroup;
+			children = (
+				EBD788A928CF1DE000602910 /* StickFigure */,
+				EBD788A528CF1DDB00602910 /* CGPointExtension.swift */,
+				EBD788A628CF1DDB00602910 /* PoseEstimation.swift */,
+			);
+			path = PoseEstimation;
+			sourceTree = "<group>";
+		};
+		EBD788A928CF1DE000602910 /* StickFigure */ = {
+			isa = PBXGroup;
+			children = (
+				EBD788AB28CF1ECF00602910 /* dotview.swift */,
+				EBD788AC28CF1ECF00602910 /* Shape.swift */,
+				EBD788AA28CF1ECE00602910 /* StickFigure.swift */,
+				EBB4ECC128CF29EC001E3E50 /* CorrectionsView.swift */,
+			);
+			path = StickFigure;
+			sourceTree = "<group>";
+		};
+		EBD788B028CF1F4E00602910 /* CameraVIewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A90AD28E46E2300D768C8 /* CameraView.swift */,
+				EB4A90AF28E46E4500D768C8 /* CameraViewController.swift */,
+				EB4A90B128E46E8600D768C8 /* CameraViewWrapper.swift */,
+			);
+			path = CameraVIewController;
+			sourceTree = "<group>";
+		};
+		EBE0AD0128C1FB3300290069 /* Fitable Edu */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6050728C0AF9000C89CA6 /* ClassRoomAPI.swift */,
+			);
+			path = "Fitable Edu";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB580CA4288D89F000FAEE89 /* Fitable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB580CC9288D89F200FAEE89 /* Build configuration list for PBXNativeTarget "Fitable" */;
+			buildPhases = (
+				EB580CA1288D89F000FAEE89 /* Sources */,
+				EB580CA3288D89F000FAEE89 /* Resources */,
+				EB580CA2288D89F000FAEE89 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitable;
+			packageProductDependencies = (
+				EBDB31EF28CDDB9F00E841EC /* Realm */,
+				EBDB31F128CDDB9F00E841EC /* RealmSwift */,
+				EBDB31F428CDDBDF00E841EC /* GoogleSignIn */,
+				EBDB31F628CDDBDF00E841EC /* GoogleSignInSwift */,
+				EBDB31F928CDDC5000E841EC /* GoogleAPIClientForRESTCore */,
+				EBDB31FB28CDDC5000E841EC /* GoogleAPIClientForREST_AIPlatformNotebooks */,
+				EBDB31FD28CDDC5000E841EC /* GoogleAPIClientForREST_APIGateway */,
+				EBDB31FF28CDDC5000E841EC /* GoogleAPIClientForREST_AbusiveExperienceReport */,
+				EBDB320128CDDC5000E841EC /* GoogleAPIClientForREST_Acceleratedmobilepageurl */,
+				EBDB320328CDDC5000E841EC /* GoogleAPIClientForREST_AccessApproval */,
+				EBDB320528CDDC5000E841EC /* GoogleAPIClientForREST_AccessContextManager */,
+				EBDB320728CDDC5000E841EC /* GoogleAPIClientForREST_AdExchangeBuyerII */,
+				EBDB320928CDDC5000E841EC /* GoogleAPIClientForREST_AdExperienceReport */,
+				EBDB320B28CDDC5000E841EC /* GoogleAPIClientForREST_AdMob */,
+				EBDB320D28CDDC5000E841EC /* GoogleAPIClientForREST_AdSenseHost */,
+				EBDB320F28CDDC5000E841EC /* GoogleAPIClientForREST_Adsense */,
+				EBDB321128CDDC5000E841EC /* GoogleAPIClientForREST_AlertCenter */,
+				EBDB321328CDDC5000E841EC /* GoogleAPIClientForREST_Analytics */,
+				EBDB321528CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsData */,
+				EBDB321728CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsHub */,
+				EBDB321928CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsReporting */,
+				EBDB321B28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidEnterprise */,
+				EBDB321D28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidManagement */,
+				EBDB321F28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidProvisioningPartner */,
+				EBDB322128CDDC5000E841EC /* GoogleAPIClientForREST_AndroidPublisher */,
+				EBDB322328CDDC5000E841EC /* GoogleAPIClientForREST_ApiKeysService */,
+				EBDB322528CDDC5000E841EC /* GoogleAPIClientForREST_Apigee */,
+				EBDB322728CDDC5000E841EC /* GoogleAPIClientForREST_ApigeeRegistry */,
+				EBDB322928CDDC5000E841EC /* GoogleAPIClientForREST_Appengine */,
+				EBDB322B28CDDC5000E841EC /* GoogleAPIClientForREST_Area120Tables */,
+				EBDB322D28CDDC5000E841EC /* GoogleAPIClientForREST_ArtifactRegistry */,
+				EBDB322F28CDDC5000E841EC /* GoogleAPIClientForREST_Assuredworkloads */,
+				EBDB323128CDDC5000E841EC /* GoogleAPIClientForREST_AuthorizedBuyersMarketplace */,
+				EBDB323328CDDC5000E841EC /* GoogleAPIClientForREST_BackupforGKE */,
+				EBDB323528CDDC5000E841EC /* GoogleAPIClientForREST_BareMetalSolution */,
+				EBDB323728CDDC5000E841EC /* GoogleAPIClientForREST_BeyondCorp */,
+				EBDB323928CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryConnectionService */,
+				EBDB323B28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryDataTransfer */,
+				EBDB323D28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryReservation */,
+				EBDB323F28CDDC5000E841EC /* GoogleAPIClientForREST_Bigquery */,
+				EBDB324128CDDC5000E841EC /* GoogleAPIClientForREST_BigtableAdmin */,
+				EBDB324328CDDC5000E841EC /* GoogleAPIClientForREST_BinaryAuthorization */,
+				EBDB324528CDDC5000E841EC /* GoogleAPIClientForREST_Blogger */,
+				EBDB324728CDDC5000E841EC /* GoogleAPIClientForREST_Books */,
+				EBDB324928CDDC5000E841EC /* GoogleAPIClientForREST_BusinessProfilePerformance */,
+				EBDB324B28CDDC5000E841EC /* GoogleAPIClientForREST_Calendar */,
+				EBDB324D28CDDC5000E841EC /* GoogleAPIClientForREST_CertificateAuthorityService */,
+				EBDB324F28CDDC5000E841EC /* GoogleAPIClientForREST_CertificateManager */,
+				EBDB325128CDDC5000E841EC /* GoogleAPIClientForREST_ChromeManagement */,
+				EBDB325328CDDC5000E841EC /* GoogleAPIClientForREST_ChromePolicy */,
+				EBDB325528CDDC5000E841EC /* GoogleAPIClientForREST_ChromeUXReport */,
+				EBDB325728CDDC5000E841EC /* GoogleAPIClientForREST_CivicInfo */,
+				EBDB325928CDDC5000E841EC /* GoogleAPIClientForREST_Classroom */,
+				EBDB325B28CDDC5000E841EC /* GoogleAPIClientForREST_CloudAsset */,
+				EBDB325D28CDDC5000E841EC /* GoogleAPIClientForREST_CloudBillingBudget */,
+				EBDB325F28CDDC5000E841EC /* GoogleAPIClientForREST_CloudBuild */,
+				EBDB326128CDDC5000E841EC /* GoogleAPIClientForREST_CloudComposer */,
+				EBDB326328CDDC5000E841EC /* GoogleAPIClientForREST_CloudDataplex */,
+				EBDB326528CDDC5000E841EC /* GoogleAPIClientForREST_CloudDebugger */,
+				EBDB326728CDDC5000E841EC /* GoogleAPIClientForREST_CloudDeploy */,
+				EBDB326928CDDC5000E841EC /* GoogleAPIClientForREST_CloudDomains */,
+				EBDB326C28CE1FAA00E841EC /* FirebaseAuth */,
+				EBDB326E28CE1FAA00E841EC /* FirebaseDynamicLinks */,
+				EBDB327028CE1FAA00E841EC /* FirebaseFirestore */,
+				EBDB327228CE1FAA00E841EC /* FirebaseStorage */,
+			);
+			productName = Fitable;
+			productReference = EB580CA5288D89F000FAEE89 /* Fitable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB580C9D288D89F000FAEE89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					EB580CA4288D89F000FAEE89 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = EB580CA0288D89F000FAEE89 /* Build configuration list for PBXProject "Fitable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB580C9C288D89F000FAEE89;
+			packageReferences = (
+				EBDB31EE28CDDB9F00E841EC /* XCRemoteSwiftPackageReference "realm-swift" */,
+				EBDB31F328CDDBDF00E841EC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
+				EBDB326B28CE1FAA00E841EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = EB580CA6288D89F000FAEE89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB580CA4288D89F000FAEE89 /* Fitable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB580CA3288D89F000FAEE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6E5A4E28CB3CDD0022B980 /* Gotham-Bold.otf in Resources */,
+				EB580CB0288D89F200FAEE89 /* Preview Assets.xcassets in Resources */,
+				EB580CAD288D89F200FAEE89 /* Assets.xcassets in Resources */,
+				EB6E5A4F28CB3CE00022B980 /* GothamBold.ttf in Resources */,
+				EB6E5A4D28CB3CDA0022B980 /* Gotham Regular.otf in Resources */,
+				EB6E5A5028CB3CE30022B980 /* GothamMedium.ttf in Resources */,
+				EBB020612891587500E5AA2F /* GoogleService-Info.plist in Resources */,
+				EB6E5A4C28CB3CD70022B980 /* GothamLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB580CA1288D89F000FAEE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD6050828C0AF9000C89CA6 /* ClassRoomAPI.swift in Sources */,
+				EBC9C35B28A257B00022AE17 /* AnalyticsWidgets.swift in Sources */,
+				EB70B84128D5BB9C0051DCB9 /* BreakView.swift in Sources */,
+				EBB4ECC028CF2792001E3E50 /* PoseEstimationView.swift in Sources */,
+				EBD788A728CF1DDC00602910 /* CGPointExtension.swift in Sources */,
+				EBD839342894DA1100EDA90C /* HomeView.swift in Sources */,
+				EB78A3D4288E30560098FA61 /* LogInView.swift in Sources */,
+				EB580CAB288D89F000FAEE89 /* ContentView.swift in Sources */,
+				EBD788A828CF1DDC00602910 /* PoseEstimation.swift in Sources */,
+				EBDA0D4028BB2180001D0DCA /* HomeViewWidgets.swift in Sources */,
+				EBB4300328CF90D800F0AC89 /* PoseEstimationView(Workouts).swift in Sources */,
+				EBD788AD28CF1ECF00602910 /* StickFigure.swift in Sources */,
+				EB4A90AE28E46E2300D768C8 /* CameraView.swift in Sources */,
+				EB4A90B028E46E4500D768C8 /* CameraViewController.swift in Sources */,
+				EB4A90B228E46E8600D768C8 /* CameraViewWrapper.swift in Sources */,
+				EBD788AE28CF1ECF00602910 /* dotview.swift in Sources */,
+				EBB8A91E28902D200061BEEF /* AlertView.swift in Sources */,
+				EB580CA9288D89F000FAEE89 /* FitableApp.swift in Sources */,
+				EB6E5A5228CB4E770022B980 /* GoogleSignUpView.swift in Sources */,
+				EB78A3D6288E3F450098FA61 /* SignUpView.swift in Sources */,
+				EBB4D88D289DF7A500A49533 /* Analyticsview.swift in Sources */,
+				EBD788AF28CF1ECF00602910 /* Shape.swift in Sources */,
+				EBB7A71428CCD55100BE83E2 /* WorkoutMarketPlace.swift in Sources */,
+				EB8968AC288D8B94006FFF08 /* Realm.swift in Sources */,
+				EBD7FD9528C97D6C007C98E1 /* ProfileView.swift in Sources */,
+				EBB1A13428CF888B0042D854 /* WorkoutResultsView.swift in Sources */,
+				EBB4ECC228CF29EC001E3E50 /* CorrectionsView.swift in Sources */,
+				EBDEA94A2892CDD700D12A00 /* VerificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB580CC7288D89F200FAEE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB580CC8288D89F200FAEE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB580CCA288D89F200FAEE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Fitable/Fitable.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitable/Preview Content\"";
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fitable/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Fitable wants to be able to dispaly to you certain health information";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Fitable wants to acces health app to access health information";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiran-lim.Fitable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB580CCB288D89F200FAEE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Fitable/Fitable.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitable/Preview Content\"";
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fitable/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Fitable wants to be able to dispaly to you certain health information";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Fitable wants to acces health app to access health information";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiran-lim.Fitable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB580CA0288D89F000FAEE89 /* Build configuration list for PBXProject "Fitable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB580CC7288D89F200FAEE89 /* Debug */,
+				EB580CC8288D89F200FAEE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB580CC9288D89F200FAEE89 /* Build configuration list for PBXNativeTarget "Fitable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB580CCA288D89F200FAEE89 /* Debug */,
+				EB580CCB288D89F200FAEE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EBDB31EE28CDDB9F00E841EC /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		EBDB31F328CDDBDF00E841EC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS/";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest/";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		EBDB326B28CE1FAA00E841EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EBDB31EF28CDDB9F00E841EC /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31EE28CDDB9F00E841EC /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		EBDB31F128CDDB9F00E841EC /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31EE28CDDB9F00E841EC /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		EBDB31F428CDDBDF00E841EC /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F328CDDBDF00E841EC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		EBDB31F628CDDBDF00E841EC /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F328CDDBDF00E841EC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		EBDB31F928CDDC5000E841EC /* GoogleAPIClientForRESTCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForRESTCore;
+		};
+		EBDB31FB28CDDC5000E841EC /* GoogleAPIClientForREST_AIPlatformNotebooks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AIPlatformNotebooks;
+		};
+		EBDB31FD28CDDC5000E841EC /* GoogleAPIClientForREST_APIGateway */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_APIGateway;
+		};
+		EBDB31FF28CDDC5000E841EC /* GoogleAPIClientForREST_AbusiveExperienceReport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AbusiveExperienceReport;
+		};
+		EBDB320128CDDC5000E841EC /* GoogleAPIClientForREST_Acceleratedmobilepageurl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Acceleratedmobilepageurl;
+		};
+		EBDB320328CDDC5000E841EC /* GoogleAPIClientForREST_AccessApproval */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AccessApproval;
+		};
+		EBDB320528CDDC5000E841EC /* GoogleAPIClientForREST_AccessContextManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AccessContextManager;
+		};
+		EBDB320728CDDC5000E841EC /* GoogleAPIClientForREST_AdExchangeBuyerII */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AdExchangeBuyerII;
+		};
+		EBDB320928CDDC5000E841EC /* GoogleAPIClientForREST_AdExperienceReport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AdExperienceReport;
+		};
+		EBDB320B28CDDC5000E841EC /* GoogleAPIClientForREST_AdMob */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AdMob;
+		};
+		EBDB320D28CDDC5000E841EC /* GoogleAPIClientForREST_AdSenseHost */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AdSenseHost;
+		};
+		EBDB320F28CDDC5000E841EC /* GoogleAPIClientForREST_Adsense */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Adsense;
+		};
+		EBDB321128CDDC5000E841EC /* GoogleAPIClientForREST_AlertCenter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AlertCenter;
+		};
+		EBDB321328CDDC5000E841EC /* GoogleAPIClientForREST_Analytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Analytics;
+		};
+		EBDB321528CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AnalyticsData;
+		};
+		EBDB321728CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsHub */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AnalyticsHub;
+		};
+		EBDB321928CDDC5000E841EC /* GoogleAPIClientForREST_AnalyticsReporting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AnalyticsReporting;
+		};
+		EBDB321B28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidEnterprise */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AndroidEnterprise;
+		};
+		EBDB321D28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidManagement */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AndroidManagement;
+		};
+		EBDB321F28CDDC5000E841EC /* GoogleAPIClientForREST_AndroidProvisioningPartner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AndroidProvisioningPartner;
+		};
+		EBDB322128CDDC5000E841EC /* GoogleAPIClientForREST_AndroidPublisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AndroidPublisher;
+		};
+		EBDB322328CDDC5000E841EC /* GoogleAPIClientForREST_ApiKeysService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_ApiKeysService;
+		};
+		EBDB322528CDDC5000E841EC /* GoogleAPIClientForREST_Apigee */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Apigee;
+		};
+		EBDB322728CDDC5000E841EC /* GoogleAPIClientForREST_ApigeeRegistry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_ApigeeRegistry;
+		};
+		EBDB322928CDDC5000E841EC /* GoogleAPIClientForREST_Appengine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Appengine;
+		};
+		EBDB322B28CDDC5000E841EC /* GoogleAPIClientForREST_Area120Tables */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Area120Tables;
+		};
+		EBDB322D28CDDC5000E841EC /* GoogleAPIClientForREST_ArtifactRegistry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_ArtifactRegistry;
+		};
+		EBDB322F28CDDC5000E841EC /* GoogleAPIClientForREST_Assuredworkloads */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Assuredworkloads;
+		};
+		EBDB323128CDDC5000E841EC /* GoogleAPIClientForREST_AuthorizedBuyersMarketplace */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AuthorizedBuyersMarketplace;
+		};
+		EBDB323328CDDC5000E841EC /* GoogleAPIClientForREST_BackupforGKE */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_BackupforGKE;
+		};
+		EBDB323528CDDC5000E841EC /* GoogleAPIClientForREST_BareMetalSolution */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_BareMetalSolution;
+		};
+		EBDB323728CDDC5000E841EC /* GoogleAPIClientForREST_BeyondCorp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_BeyondCorp;
+		};
+		EBDB323928CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryConnectionService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_BigQueryConnectionService;
+		};
+		EBDB323B28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryDataTransfer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_BigQueryDataTransfer;
+		};
+		EBDB323D28CDDC5000E841EC /* GoogleAPIClientForREST_BigQueryReservation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_BigQueryReservation;
+		};
+		EBDB323F28CDDC5000E841EC /* GoogleAPIClientForREST_Bigquery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Bigquery;
+		};
+		EBDB324128CDDC5000E841EC /* GoogleAPIClientForREST_BigtableAdmin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_BigtableAdmin;
+		};
+		EBDB324328CDDC5000E841EC /* GoogleAPIClientForREST_BinaryAuthorization */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_BinaryAuthorization;
+		};
+		EBDB324528CDDC5000E841EC /* GoogleAPIClientForREST_Blogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Blogger;
+		};
+		EBDB324728CDDC5000E841EC /* GoogleAPIClientForREST_Books */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Books;
+		};
+		EBDB324928CDDC5000E841EC /* GoogleAPIClientForREST_BusinessProfilePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_BusinessProfilePerformance;
+		};
+		EBDB324B28CDDC5000E841EC /* GoogleAPIClientForREST_Calendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Calendar;
+		};
+		EBDB324D28CDDC5000E841EC /* GoogleAPIClientForREST_CertificateAuthorityService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_CertificateAuthorityService;
+		};
+		EBDB324F28CDDC5000E841EC /* GoogleAPIClientForREST_CertificateManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_CertificateManager;
+		};
+		EBDB325128CDDC5000E841EC /* GoogleAPIClientForREST_ChromeManagement */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_ChromeManagement;
+		};
+		EBDB325328CDDC5000E841EC /* GoogleAPIClientForREST_ChromePolicy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_ChromePolicy;
+		};
+		EBDB325528CDDC5000E841EC /* GoogleAPIClientForREST_ChromeUXReport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_ChromeUXReport;
+		};
+		EBDB325728CDDC5000E841EC /* GoogleAPIClientForREST_CivicInfo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_CivicInfo;
+		};
+		EBDB325928CDDC5000E841EC /* GoogleAPIClientForREST_Classroom */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Classroom;
+		};
+		EBDB325B28CDDC5000E841EC /* GoogleAPIClientForREST_CloudAsset */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_CloudAsset;
+		};
+		EBDB325D28CDDC5000E841EC /* GoogleAPIClientForREST_CloudBillingBudget */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_CloudBillingBudget;
+		};
+		EBDB325F28CDDC5000E841EC /* GoogleAPIClientForREST_CloudBuild */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_CloudBuild;
+		};
+		EBDB326128CDDC5000E841EC /* GoogleAPIClientForREST_CloudComposer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_CloudComposer;
+		};
+		EBDB326328CDDC5000E841EC /* GoogleAPIClientForREST_CloudDataplex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_CloudDataplex;
+		};
+		EBDB326528CDDC5000E841EC /* GoogleAPIClientForREST_CloudDebugger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_CloudDebugger;
+		};
+		EBDB326728CDDC5000E841EC /* GoogleAPIClientForREST_CloudDeploy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_CloudDeploy;
+		};
+		EBDB326928CDDC5000E841EC /* GoogleAPIClientForREST_CloudDomains */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB31F828CDDC5000E841EC /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_CloudDomains;
+		};
+		EBDB326C28CE1FAA00E841EC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB326B28CE1FAA00E841EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EBDB326E28CE1FAA00E841EC /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB326B28CE1FAA00E841EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		EBDB327028CE1FAA00E841EC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB326B28CE1FAA00E841EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		EBDB327228CE1FAA00E841EC /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDB326B28CE1FAA00E841EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EB580C9D288D89F000FAEE89 /* Project object */;
+}
